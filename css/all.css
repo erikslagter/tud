@@ -769,12 +769,15 @@ h3{
 	background:none;
 	float:left;
 }
+.comments-form .input-holder{
+	height:26px;
+}
 .comments-form .input-holder input{
 	padding:4px 0 3px;
 	height:20px;
 	width:479px;
 }
-.comments-form .textarea-holder{
+form.comments-form  div {
 	width:684px;
 	height:66px;
 	background:url(../images/bg-input.gif) no-repeat 0 -27px;
@@ -782,7 +785,7 @@ h3{
 	margin:4px 0 12px;
 	overflow:hidden;
 }
-.comments-form .textarea-holder textarea{
+form.comments-form  div textarea{
 	margin:0;
 	padding:0;
 	border:0;
@@ -791,7 +794,6 @@ h3{
 	width:684px;
 	max-width:684px;
 	background:none;
-	overflow:auto;
 }
 .comments-form .submit{
 	width:126px;
@@ -1056,13 +1058,14 @@ h3{
 	width:100%;	overflow:hidden;
 	padding:0 0 3px;
 }
-.textarea-holder{
+form.ask-form div{
 	width:203px;
 	padding:8px 0 2px 7px;
 	height:37px;
 	background:url(../images/bg-input.gif) no-repeat 0 -163px;
 }
-.textarea-holder textarea{
+
+form.ask-form div textarea{
 	padding:0;
 	margin:0;
 	border:0;
@@ -1071,9 +1074,10 @@ h3{
 	max-width:203px;
 	height:37px;
 	max-height:37px;
-	overflow:auto;
 }
-.textarea-holder textarea.focus{background:none;}
+form.ask-form div textarea.focus{
+	background:none;
+}
 .item-frame{
 	width:100%;	overflow:hidden;
 	padding:7px 0 0;
