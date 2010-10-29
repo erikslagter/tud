@@ -500,6 +500,12 @@ h3{
 	width:100%;	overflow:hidden;
 	padding:0 0 26px;
 }
+.content-text img {
+	margin: 4px 1px 4px 10px;
+	float: right;
+	display:inline;
+	border: 1px solc #ccc;
+}
 .content .visual{margin:0 0 0 -4px;}
 .content h1{margin:0 0 13px !important;}
 .content img{
@@ -579,13 +585,17 @@ h3{
 .section img{
 	vertical-align:top;
 	border:1px solid #1c9dd9;
+	margin:6px 13px 0 2px;
+	display:inline;
+	float:left;
+	
 }
 .section ul h2{
 	font-size:1.46em !important;
 	margin:0 0 2px !important;
 }
 .section p{margin:0 0 14px !important;}
-.section .alignleft{margin:6px 13px 0 2px;}
+
 .section .alignright{margin:6px 2px 0 13px;}
 .section ul p{margin:0 !important;}
 /* main-nav */
